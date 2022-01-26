@@ -1,0 +1,52 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #98c1d9;
+  height: 25vh;
+  color: #293241;
+}
+
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3d5a80;
+  height: 30vh;
+  color: #e0fbfc;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  height: 37.5vh;
+  color: #3d5a80;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ee6c4d;
+  height: 37.5vh;
+  color: #e0fbfc;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #293241;
+  height: 20vh;
+  color: #ee6c4d;
+}
