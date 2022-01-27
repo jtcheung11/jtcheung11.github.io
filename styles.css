@@ -5,14 +5,21 @@
   margin-left: 2vh;
   margin-right: 2vh;
   font-size: 25pt;
-  
-}
-
-h1 {
-  font-size: 50pt;
+  color:#293241;
+  font-weight: 100;
 }
 
 h2 {
+  font-size: 40pt;
+}
+
+h4{
+  font-weight:100;
+  font-size: 40pt;
+}
+
+#tagline {
+  font-weight:100;
   font-size: 40pt;
 }
 
@@ -21,23 +28,13 @@ i {
     margin: 8px;
 }
 
-#containerbody {
-  background-color: rgb(163, 148, 130);
-  border-radius: 10px;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
-}
-
 #intro {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #98c1d9;
-  height: 32vh;
+  /* background-color: #98c1d9; */
   color: #293241;
   border-radius: 10px;
-  padding: 10vw;
 }
 
 #aboutme {
@@ -45,53 +42,58 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3d5a80;
-  height: 40vh;
-  color: #e0fbfc;
+  padding-left: 2vw;
+  padding-right: 2vw;
   border-radius: 10px;
-  padding: 5vw;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 #skills {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:column;
+  align-items:center;
   justify-content: center;
-  background-color: #e0e0e0;
-  /* height: 40vh; */
   color: #3d5a80;
   border-radius: 10px;
-  padding: 5vw;
+  padding: 3vw;
   padding-top: 2vw;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container2{
+  display:flex;
 }
 
 .skills1 {
   display: flex;
+  flex-direction: column;
   justify-content: left;
-  background-color: #98c1d9;
   border-radius: 10px;
-  box-shadow: rgba(61, 90, 128, 0.4) 5px 5px, rgba(61, 90, 128, 0.3) 10px 10px, rgba(61, 90, 128, 0.2) 15px 15px, rgba(61, 90, 128, 0.1) 20px 20px, rgba(61, 90, 128, 0.05) 25px 25px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  /* box-shadow: rgba(61, 90, 128, 0.4) 5px 5px, rgba(61, 90, 128, 0.3) 10px 10px, rgba(61, 90, 128, 0.2) 15px 15px, rgba(61, 90, 128, 0.1) 20px 20px, rgba(61, 90, 128, 0.05) 25px 25px; */
 
 }
 
-.skills2 {
+/* .skills2 {
   display: flex;
+  flex-direction: column;
   justify-content: right;
   background-color: #3d5a80;
-  border-radius: 10px;
-  box-shadow: rgba(152, 193, 217, 0.4) 5px 5px, rgba(152, 193, 217, 0.3) 10px 10px, rgba(152, 193, 217, 0.2) 15px 15px, rgba(152, 193, 217, 0.1) 20px 20px, rgba(152, 193, 217, 0.05) 25px 25px;
-}
+  border-radius: 10px; */
+  /* box-shadow: rgba(152, 193, 217, 0.4) 5px 5px, rgba(152, 193, 217, 0.3) 10px 10px, rgba(152, 193, 217, 0.2) 15px 15px, rgba(152, 193, 217, 0.1) 20px 20px, rgba(152, 193, 217, 0.05) 25px 25px; */
+/* } */
 
 #projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #98c1d9;
+  /* background-color: #98c1d9; */
   height: 160vh;
   color: #293241;
   border-radius: 10px;
   padding: 2vw;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .tipwizss {
@@ -108,11 +110,10 @@ i {
 }
 
 #tipwiztech {
-  background-color: #3d5a80;
+  /* background-color: #3d5a80; */
   border-radius: 10px;
-  color: #d18471;
   margin: 4vw;
-  box-shadow: rgba(61, 90, 128, 0.4) 5px 5px, rgba(61, 90, 128, 0.3) 10px 10px, rgba(61, 90, 128, 0.2) 15px 15px, rgba(61, 90, 128, 0.1) 20px 20px, rgba(61, 90, 128, 0.05) 25px 25px;
+  /* box-shadow: rgba(61, 90, 128, 0.4) 5px 5px, rgba(61, 90, 128, 0.3) 10px 10px, rgba(61, 90, 128, 0.2) 15px 15px, rgba(61, 90, 128, 0.1) 20px 20px, rgba(61, 90, 128, 0.05) 25px 25px; */
 }
 
 #contact {
@@ -120,14 +121,9 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3d5a80;
-  height: 35vh;
-  color: #d18471;
   border-radius: 10px;
-  
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
-
 
 .sidenav {
     height: 100%;
@@ -136,12 +132,11 @@ i {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #293241;
+    background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border: #fff;
-    border-width: 1px solid;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     margin: 0;
   }
   
@@ -149,13 +144,13 @@ i {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #d18471;
+    color: #293241;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #8a8888;
   }
   
   .sidenav .closebtn {
@@ -173,9 +168,8 @@ i {
 
   #tipwizdemo {
     text-decoration: none;
-    color: #e0e0e0;
     font-size: 45px;
-    font-weight: 550;
+    font-weight: 150;
   }
   
   #linlink {
@@ -190,5 +184,10 @@ i {
     text-decoration: none;
     display: inline-flex;
     font-size: 40px;
-    color:#fff
+  }
+
+  .hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
   }
