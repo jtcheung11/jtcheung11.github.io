@@ -34,7 +34,7 @@ i {
   align-items: center;
   justify-content: center;
   background-color: #98c1d9;
-  height: 35vh;
+  height: 32vh;
   color: #293241;
   border-radius: 10px;
   padding: 10vw;
@@ -46,10 +46,10 @@ i {
   align-items: center;
   justify-content: center;
   background-color: #3d5a80;
-  height: 80vh;
+  height: 40vh;
   color: #e0fbfc;
   border-radius: 10px;
-  padding: 10vw;
+  padding: 5vw;
 }
 
 #skills {
@@ -62,6 +62,7 @@ i {
   color: #3d5a80;
   border-radius: 10px;
   padding: 5vw;
+  padding-top: 2vw;
 }
 
 .skills1 {
@@ -87,7 +88,7 @@ i {
   align-items: center;
   justify-content: center;
   background-color: #98c1d9;
-  height: 150vh;
+  height: 160vh;
   color: #293241;
   border-radius: 10px;
   padding: 2vw;
@@ -120,7 +121,7 @@ i {
   align-items: center;
   justify-content: center;
   background-color: #3d5a80;
-  height: 30vh;
+  height: 35vh;
   color: #d18471;
   border-radius: 10px;
   
@@ -188,6 +189,6 @@ i {
   #email {
     text-decoration: none;
     display: inline-flex;
-    font-size: 35px;
+    font-size: 40px;
     color:#fff
   }
