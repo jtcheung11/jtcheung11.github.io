@@ -93,7 +93,7 @@ i {
   color: #293241;
   border-radius: 10px;
   padding: 2vw;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 
 .tipwizss {
@@ -122,7 +122,7 @@ i {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 
 .sidenav {
@@ -189,5 +189,5 @@ i {
   .hr {
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+    background-image: linear-gradient(to right, transparent, #293241, transparent);  
   }
