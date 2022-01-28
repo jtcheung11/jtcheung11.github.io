@@ -20,7 +20,7 @@ h4{
 
 #tagline {
   font-weight:100;
-  font-size: 40pt;
+  font-size: 30pt;
 }
 
 i {
@@ -187,6 +187,7 @@ i {
   }
 
   .hr {
+    display:flex;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, #293241, transparent);  
