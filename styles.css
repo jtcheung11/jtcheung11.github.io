@@ -48,6 +48,39 @@ i {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+/* text animation start */
+
+#tagline {
+  border-right: solid 3px #293241;
+  display: flex;
+  font-size: 20pt;
+  padding-top: 0;
+  margin-left: 20vw;
+}
+#tagline {
+  animation: animated-text 2s steps(29) 1s 1 normal both,
+             animated-cursor 600ms steps(29) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 50vw;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #293241;}
+  to{border-right-color: transparent;}
+}
+#tagline {
+  white-space: nowrap;
+  overflow: hidden;    
+}
+
+/* text animation end */
 #skills {
   display: flex;
   flex-direction:column;
