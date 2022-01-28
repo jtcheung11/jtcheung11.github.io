@@ -52,10 +52,10 @@ i {
 
 #tagline {
   border-right: solid 3px #293241;
-  display: flex;
+  /* display: flex; */
+  /* align-items: center; */
   font-size: 20pt;
-  padding-top: 0;
-  margin-left: 20vw;
+  /* margin-left: 20vw; */
 }
 #tagline {
   animation: animated-text 2s steps(29) 1s 1 normal both,
@@ -66,7 +66,7 @@ i {
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 50vw;}
+  to{width: 960px;}
 }
 
 /* cursor animations */
