@@ -49,13 +49,14 @@ i {
 }
 
 /* text animation start */
-
+#textanimation {
+  padding-left: 20vw;
+}
 #tagline {
   border-right: solid 3px #293241;
   /* display: flex; */
   /* align-items: center; */
   font-size: 20pt;
-  /* margin-left: 20vw; */
 }
 #tagline {
   animation: animated-text 2s steps(29) 1s 1 normal both,
